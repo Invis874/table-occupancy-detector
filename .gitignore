@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Видео файлы (большие, не нужны в репозитории)
+*.mp4
+*.avi
+*.mov
+
+# Входные видео
+видео*.mp4
+
+# Результаты обработки
+output*.mp4
+result*.mp4
+report_*.txt
+
+# Модели YOLO (скачиваются автоматически)
+yolov8n.pt
+*.pt
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Virtual Environment
+venv/
+.venv/
